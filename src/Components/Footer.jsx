@@ -9,8 +9,8 @@ export default function Footer() {
           <div className="">
             <a className="d-inline-flex gap-2 align-items-center lh-1" href="index.html">
               <span className="text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
-                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                  stroke-linejoin="round" className="icon icon-tabler icons-tabler-outline icon-tabler-book">
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
+                  strokeLinejoin="round" className="icon icon-tabler icons-tabler-outline icon-tabler-book">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
                   <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
@@ -26,7 +26,7 @@ export default function Footer() {
               <span className="d-flex align-items-center gap-2">
                 <span className="text-primary">
                   <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
                     className="icon icon-tabler icons-tabler-outline icon-tabler-mail">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                     <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
@@ -40,7 +40,7 @@ export default function Footer() {
               <span className="d-flex align-items-center gap-2">
                 <span className="text-primary">
                   <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
                     className="icon icon-tabler icons-tabler-outline icon-tabler-phone">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                     <path
@@ -53,7 +53,7 @@ export default function Footer() {
               <span className="d-flex align-items-center gap-2">
                 <span className="text-primary">
                   <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
                     className="icon icon-tabler icons-tabler-outline icon-tabler-map-pin">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                     <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
@@ -152,7 +152,7 @@ export default function Footer() {
 
               <a href="#" className="btn rounded-circle btn-light btn-icon btn-xs">
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
-                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
                   className="icon icon-tabler icons-tabler-outline icon-tabler-brand-x">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                   <path d="M4 4l11.733 16h4.267l-11.733 -16z"></path>
@@ -162,7 +162,7 @@ export default function Footer() {
               </a>
               <a href="#" className="btn rounded-circle btn-light btn-icon btn-xs">
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
-                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
                   className="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin ">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                   <path d="M8 11v5"></path>
@@ -176,7 +176,7 @@ export default function Footer() {
               <a href="#" className="btn rounded-circle btn-light btn-icon btn-xs">
 
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
-                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
                   className="icon icon-tabler icons-tabler-brand-github ">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                   <path

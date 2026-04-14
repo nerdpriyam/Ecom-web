@@ -2,8 +2,167 @@ import React from 'react'
 
 export default function HomePage() {
   return (
-    <div>
-      <h1>Welcome to the HomePage</h1>
-    </div>
+    <>
+
+      <section className="py-lg-13 py-8 bg-white position-relative" id="hero">
+        <div className="circle-bg d-none d-lg-block"></div>
+        <div className="container ">
+          <div className="row align-items-center gy-8">
+            <div className="col-lg-6">
+              <span
+                className="badge bg-primary bg-opacity-10 text-primary px-4 py-3 fw-normal border border-primary rounded-pill">
+                <span><svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="currentColor"
+                  className="icon icon-tabler icons-tabler-filled icon-tabler-circle">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M7 3.34a10 10 0 1 1 -4.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 4.995 -8.336z" />
+                </svg></span>
+                <span className="ms-1">New Courses Available</span></span>
+              <h1 className="display-4 fw-bold  mt-4">
+                Master New Skills
+                <span className="text-primary">Online Anytime,</span>
+                Anywhere
+              </h1>
+
+              <p className="my-6 lead fw-normal">
+                Join over 50,000+ students learning from world-className mentors. Transform your career with industry-leading
+                courses.
+              </p>
+              <div className="d-flex flex-md-row flex-column justify-content-start   gap-3">
+                <a href="#!" className="btn btn-primary">
+
+                  <span>Start Learning</span>
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin  ="round"
+                      className="icon icon-tabler icons-tabler-arrow-right ms-2">
+                      <line x1="5" y1="12" x2="19" y2="12"></line>
+                      <line x1="13" y1="18" x2="19" y2="12"></line>
+                      <line x1="13" y1="6" x2="19" y2="12"></line>
+                    </svg>
+                  </span>
+                </a>
+                <a href="#" className="btn btn-light">
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+                      className="icon icon-tabler icons-tabler-brand-youtube text-danger">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <rect x="3" y="5" width="18" height="14" rx="4" />
+                      <path d="M10 9l5 3l-5 3z" />
+                    </svg>
+                  </span>
+                  <span className="ms-1">YouTube Channel</span></a>
+              </div>
+              <div className="d-flex gap-6 mt-8">
+                <div className="d-flex align-items-center gap-2">
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+                      className="icon icon-tabler icons-tabler-users text-primary">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <circle cx="9" cy="7" r="4" />
+                      <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                      <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                      <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
+                    </svg>
+                  </span>
+                  <small className="mb-0"><span className="fw-bold">50K+</span> Students</small>
+                </div>
+                <div className="d-flex align-items-center gap-2">
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+                      className="icon icon-tabler icons-tabler-outline icon-tabler-book text-primary">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+                      <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+                      <path d="M3 6l0 13" />
+                      <path d="M12 6l0 13" />
+                      <path d="M21 6l0 13" />
+                    </svg>
+
+                  </span>
+                  <small className="mb-0"><span className="fw-bold">200+ </span> Courses</small>
+                </div>
+                <div className="d-flex align-items-center gap-2">
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+                      className="icon icon-tabler icons-tabler-outline icon-tabler-award text-primary">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M12 9m-6 0a6 6 0 1 0 12 0a6 6 0 1 0 -12 0" />
+                      <path d="M12 15l3.4 5.89l1.598 -3.233l3.598 .232l-3.4 -5.889" />
+                      <path d="M6.802 12l-3.4 5.89l3.598 -.233l1.598 3.232l3.4 -5.889" />
+                    </svg>
+
+                  </span>
+                  <small className="mb-0"><span className="fw-bold">4.9</span> Rating</small>
+                </div>
+
+
+
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="card p-3 rounded-5  shadow-sm">
+                <div className="position-relative">
+                  <div className="position-relative">
+                    <img src="/learnhub/assets/images/hero-img.jpg" alt="about" className="rounded-5 img-fluid" />
+
+                    <a href="https://www.youtube.com/watch?v=CivuutI6lXY"
+                      className="play-btn glightbox position-absolute top-50 start-50 translate-middle icon-shape icon-xl rounded-circle text-white">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"
+                        className="icon icon-tabler icons-tabler-filled icon-tabler-player-play">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z" />
+                      </svg>
+                    </a>
+
+                    <div className="position-absolute top-0 me-n8 mt-n4">
+                      <div className="bg-white shadow-sm rounded-pill d-flex align-items-center gap-3 px-3 py-2  mb-4 border"
+                        style={{ width: '180px' }}>
+                        <div className="avatar-group">
+                          <img src="/learnhub/assets/images/avatar-1.jpg" alt="" className="avatar avatar-sm rounded-circle" />
+                          <img src="/learnhub/assets/images/avatar-2.jpg" alt="" className="avatar avatar-sm rounded-circle" />
+                          <img src="/learnhub/assets/images/avatar-3.jpg" alt="" className="avatar avatar-sm rounded-circle" />
+                        </div>
+                        <div className="d-flex flex-column text-xs lh-sm">
+                          <span className="fw-bold">Join 50k+</span>
+                          <span>Students</span>
+                        </div>
+
+                      </div>
+                    </div>
+                    <div className="position-absolute bottom-0 ms-n8 mb-n8">
+                      <div className="bg-white shadow-sm rounded-pill d-flex align-items-center gap-2 px-3 py-2  mb-4 border"
+                        style={{width: '170px'}}>
+                        <div
+                          className="icon-shape icon-md rounded-circle bg-primary bg-opacity-10 text-primary d-flex align-items-center justify-content-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+                            className="icon icon-tabler icons-tabler-outline icon-tabler-book text-primary">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0"></path>
+                            <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0"></path>
+                            <path d="M3 6l0 13"></path>
+                            <path d="M12 6l0 13"></path>
+                            <path d="M21 6l0 13"></path>
+                          </svg>
+                        </div>
+                        <div className="d-flex flex-column text-xs lh-sm">
+                          <span className="fw-bold">200+ Courses</span>
+                          <span>Available Now</span>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
   )
 }
