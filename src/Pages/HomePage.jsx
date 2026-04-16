@@ -17,8 +17,7 @@ export default function HomePage() {
                   <path d="M7 3.34a10 10 0 1 1 -4.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 4.995 -8.336z" />
                 </svg></span>
                 <span className="ms-1">New Courses Available</span></span>
-              <h1 className="display-4 fw-bold  mt-4">
-                Master New Skills
+              <h1 className="display-4 fw-bold  mt-4">Master New Skills
                 <span className="text-primary">Online Anytime,</span>
                 Anywhere
               </h1>
@@ -33,7 +32,7 @@ export default function HomePage() {
                   <span>Start Learning</span>
                   <span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
-                      stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin  ="round"
+                      stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
                       className="icon icon-tabler icons-tabler-arrow-right ms-2">
                       <line x1="5" y1="12" x2="19" y2="12"></line>
                       <line x1="13" y1="18" x2="19" y2="12"></line>
@@ -135,7 +134,7 @@ export default function HomePage() {
                     </div>
                     <div className="position-absolute bottom-0 ms-n8 mb-n8">
                       <div className="bg-white shadow-sm rounded-pill d-flex align-items-center gap-2 px-3 py-2  mb-4 border"
-                        style={{width: '170px'}}>
+                        style={{ width: '170px' }}>
                         <div
                           className="icon-shape icon-md rounded-circle bg-primary bg-opacity-10 text-primary d-flex align-items-center justify-content-center">
                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"

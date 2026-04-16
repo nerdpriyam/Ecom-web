@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
@@ -15,7 +16,7 @@ export default function Navbar() {
             <path d="M12 6l0 13" />
             <path d="M21 6l0 13" />
           </svg></span>
-          <span className="fw-bold">LearnHub</span>
+          <span className="fw-bold">E-com</span>
         </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +32,7 @@ export default function Navbar() {
             <li className="nav-item"><a href="#pricing" className="nav-link">Pricing</a></li>
           </ul>
           <div className="d-flex gap-3 align-items-center">
-            <a href="#" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Get Started</a>
+           
           </div>
         </div>
       </div>
