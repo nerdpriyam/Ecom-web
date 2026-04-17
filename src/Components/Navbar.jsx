@@ -1,22 +1,12 @@
 import React from 'react'
 
-
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
       <div className="container">
         <a className="navbar-brand d-inline-flex gap-2 align-items-center lh-1" href="index.html">
-          <span className="text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
-            fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
-            className="icon icon-tabler icons-tabler-outline icon-tabler-book">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
-            <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
-            <path d="M3 6l0 13" />
-            <path d="M12 6l0 13" />
-            <path d="M21 6l0 13" />
-          </svg></span>
-          <span className="fw-bold">E-com</span>
+          <span className="text-primary"><i className='bi bi-shop'></i></span>
+          <span className="fw-bold "> Indian-Bazaar</span>
         </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,9 +21,6 @@ export default function Navbar() {
             <li className="nav-item"><a href="#testimonials" className="nav-link">Testimonials</a></li>
             <li className="nav-item"><a href="#pricing" className="nav-link">Pricing</a></li>
           </ul>
-          <div className="d-flex gap-3 align-items-center">
-           
-          </div>
         </div>
       </div>
     </nav>

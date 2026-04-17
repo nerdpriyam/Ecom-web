@@ -4,22 +4,13 @@ export default function HomePage() {
   return (
     <>
 
-      <section className="py-lg-13 py-8 bg-white position-relative" id="hero">
+      <section className="py-lg-13 py-8 bg-white position-relative mb-3" id="hero">
         <div className="circle-bg d-none d-lg-block"></div>
         <div className="container ">
           <div className="row align-items-center gy-8">
             <div className="col-lg-6">
-              <span
-                className="badge bg-primary bg-opacity-10 text-primary px-4 py-3 fw-normal border border-primary rounded-pill">
-                <span><svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="currentColor"
-                  className="icon icon-tabler icons-tabler-filled icon-tabler-circle">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <path d="M7 3.34a10 10 0 1 1 -4.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 4.995 -8.336z" />
-                </svg></span>
-                <span className="ms-1">New Courses Available</span></span>
               <h1 className="display-4 fw-bold  mt-4">Master New Skills
-                <span className="text-primary">Online Anytime,</span>
-                Anywhere
+                <span className="text-primary">Online Anytime,</span>Anywhere
               </h1>
 
               <p className="my-6 lead fw-normal">
@@ -40,17 +31,6 @@ export default function HomePage() {
                     </svg>
                   </span>
                 </a>
-                <a href="#" className="btn btn-light">
-                  <span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
-                      stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
-                      className="icon icon-tabler icons-tabler-brand-youtube text-danger">
-                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                      <rect x="3" y="5" width="18" height="14" rx="4" />
-                      <path d="M10 9l5 3l-5 3z" />
-                    </svg>
-                  </span>
-                  <span className="ms-1">YouTube Channel</span></a>
               </div>
               <div className="d-flex gap-6 mt-8">
                 <div className="d-flex align-items-center gap-2">
@@ -97,9 +77,6 @@ export default function HomePage() {
                   </span>
                   <small className="mb-0"><span className="fw-bold">4.9</span> Rating</small>
                 </div>
-
-
-
               </div>
             </div>
             <div className="col-lg-6">
